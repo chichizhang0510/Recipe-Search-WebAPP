@@ -1,3 +1,4 @@
+@use "base" as *;
 .recipe {
   background-color: $color-grey-light-1;
 
@@ -10,7 +11,7 @@
     transform-origin: top;
 
     &::before {
-      content: '';
+      content: "";
       display: block;
       height: 100%;
       width: 100%;
